@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping("/spring-mvc-xml")
+@RequestMapping("/spring-mvc-fileupload")
 public class FileUploadController {
 
     @Value(value = "${spring.servlet.multipart.location}")

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uploading file</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <form method="POST" action="http://localhost:8080/spring-mvc-xml/uploadFile" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td><label path="file">Select a file to upload</label></td>
+                <td><input type="file" name="file"/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
